@@ -19,7 +19,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "No license") {
-    return ``;
+    return `
+    # License
+    Porject license is under ${license} license
+    `;
   }
   return "";
 }
@@ -27,8 +30,46 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ## Table Contents
+  - [Description](#Description)
+  - [User Story](#User-Story)
+  - [Acceptance Criteria](#Acceptance-Criteria)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Link](#Link)
+  - [Screenshot/Demo](#Screenshot/Gif-Demo)
+  - [Contact](#Contact)
 
-`;
+  ## Description
+  ${data.description}
+
+  ## User Story
+  ${data.userStory}
+
+  ## Acceptance Criteria
+  ${data.acceptanceCriteria}
+
+  ## Instalation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## License
+  ${data.usage}
+
+  ## Link 
+  ${data.link}
+
+  ## Screenshot/Gif Demo
+  [Click link Demo]${data.test}
+
+  ## Contact
+  Any further questions? Please contact me:
+  - GitHub: [${data.github}](https:github.com/${data.github})
+  - Email: ${data.email}
+`
 }
 
 module.exports = generateMarkdown;

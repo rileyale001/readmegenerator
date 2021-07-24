@@ -58,12 +58,20 @@ const questions = [
 
 // TODO: Create a function to write README file fs doc google
 function writeToFile(fileName, data) {
+  const stuff = generateMarkdown(data);
+  fs.writeFile(fileName, stuff, (err) => 
+  err ? console.log(err) : console.log('A_README.md', response)
+  );
 
 }
 
 // TODO: Create a function to initialize app call inquirer 
 function init() {
-  inquirer.prompt(questions)
+  inquirer
+  .prompt([questions])
+  .then((answers) => {
+    writeToFile('A_README.md', response)
+  })
 }
 
 // Function call to initialize app
