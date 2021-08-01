@@ -18,8 +18,8 @@ For this project I am creating a readme generator so that when a user is prompte
 - license was changed in generateMarkdown so that a license will render
 - user enters contact info and the readme is generated
 
-![Screenshot](./img/h9ss.PNG)
-![Screenshot](./img/h9ss1.PNG)
+![Screenshot](./Develop/img\hw9ss.PNG)
+![Screenshot](./Develop/img/h9ss1.PNG)
 
 ## Links
 
