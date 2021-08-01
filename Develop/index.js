@@ -17,6 +17,11 @@ const questions = [
       },
       {
         type: 'input',
+        name: 'userStory',
+        message: 'What is the user story',
+      },
+      {
+        type: 'input',
         name: 'installation',
         message: 'What are the instructions for installation to your project?',
       },
@@ -27,19 +32,25 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'contribution',
-        message: 'How can people contribute to your project?',
+        name: 'acceptanceCriteria',
+        message: 'What are the acceptance criteria for your project?',
       },
-      {
-        type: 'input',
-        name: 'tests',
-        message: 'How can your project be tested?',
-      },
+      
     {
       type: 'checkbox',
       message: 'What license do you want for the project?',
       name: 'license',
       choices: ['GPL', 'Common Development and Distribution License', 'Mozilla Public License 2.0', 'Node', 'MIT license', 'No license'],
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your github user name',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email to contact you for further questions?',
     },
     // github and email questions
   ];

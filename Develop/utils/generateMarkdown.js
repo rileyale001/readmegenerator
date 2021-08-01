@@ -50,20 +50,17 @@ function generateMarkdown(data) {
   ## Acceptance Criteria
   ${data.acceptanceCriteria}
 
-  ## Instalation
+  ## Installation
   ${data.installation}
 
   ## Usage
   ${data.usage}
 
   ## License
-  ${data.usage}
+  ${data.license}
 
   ## Link 
   ${data.link}
-
-  ## Screenshot/Gif Demo
-  [Click link Demo]${data.test}
 
   ## Contact
   Any further questions? Please contact me:

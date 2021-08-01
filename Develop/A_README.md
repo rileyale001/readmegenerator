@@ -1,4 +1,4 @@
-# 
+# Readmegenerator
   ## Table Contents
   - [Description](#Description)
   - [User Story](#User-Story)
@@ -11,30 +11,27 @@
   - [Contact](#Contact)
 
   ## Description
-  
+  generates read me
 
   ## User Story
-  undefined
+  create an app that generates a readme using node
 
   ## Acceptance Criteria
-  undefined
+  generates readme using user input
 
-  ## Instalation
-  
+  ## Installation
+  node 
 
   ## Usage
-  
+  backend 
 
   ## License
-  
+  GPL
 
   ## Link 
   undefined
 
-  ## Screenshot/Gif Demo
-  [Click link Demo]undefined
-
   ## Contact
   Any further questions? Please contact me:
-  - GitHub: [undefined](https:github.com/undefined)
-  - Email: undefined
+  - GitHub: [rileyale001](https:github.com/rileyale001)
+  - Email: alexjtriley@gmail.com
